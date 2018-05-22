@@ -1,0 +1,6 @@
+version: "3"
+services:
+  antivirus:
+    image: mkodockx/docker-clamav
+    ports:
+      - "3310:3310"
